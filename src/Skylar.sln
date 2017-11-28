@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Skylar.Core", "Skylar.Core\Skylar.Core.csproj", "{91C3EEB2-C243-4161-BA3E-5D9813F42B4C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{9D357086-4E0E-4858-9D80-D4A253A04365}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\packages.config = .nuget\packages.config
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Skylar.Core.Specs", "Skylar.Core.Specs\Skylar.Core.Specs.csproj", "{7BBA4BB6-DFA2-4260-B9B6-FAB5CE502442}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Skylar.Demo", "Skylar.Demo\Skylar.Demo.csproj", "{9AD15B03-DD2A-440B-92F6-270B246162FF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{91C3EEB2-C243-4161-BA3E-5D9813F42B4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91C3EEB2-C243-4161-BA3E-5D9813F42B4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91C3EEB2-C243-4161-BA3E-5D9813F42B4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91C3EEB2-C243-4161-BA3E-5D9813F42B4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BBA4BB6-DFA2-4260-B9B6-FAB5CE502442}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BBA4BB6-DFA2-4260-B9B6-FAB5CE502442}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BBA4BB6-DFA2-4260-B9B6-FAB5CE502442}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BBA4BB6-DFA2-4260-B9B6-FAB5CE502442}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9AD15B03-DD2A-440B-92F6-270B246162FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AD15B03-DD2A-440B-92F6-270B246162FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AD15B03-DD2A-440B-92F6-270B246162FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AD15B03-DD2A-440B-92F6-270B246162FF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

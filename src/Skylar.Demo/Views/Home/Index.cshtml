@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Natural Language Processor</title>
+    <link rel="stylesheet" type="text/css" href="~/Resources/Styles/Style.css" />
+    <link rel="stylesheet" type="text/css" href="~/Resources/Styles/Search.css" />
+</head>
+<body>
+    <div class="header">
+        <div class="header_search_form">
+            <form id="search_form">
+                <fieldset>
+                    <input id="query" type="text" value="permits in state draft" />
+                </fieldset>
+            </form>
+        </div>
+    </div>
+    <div class="result_panel">
+        <table>
+            <tr>
+                <td valign="top">
+                    <section class="list-articles2 list-search2">
+                        <div class="search-item2">
+                            <article>
+                                <div class="article-content">
+                                    <div class="excerpt">
+                                        <p>
+                                            <pre><b><code>Query Definition</code></b></pre><br>
+                                            <pre><code id="query_definition_result"></code></pre>
+                                        </p>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                    </section>
+                </td>
+                <td valign="top">
+                    <section id="query_result" class="list-articles list-search">
+                    </section>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="footer">
+        <img src="http://r3db.github.io/images/logo.amp.png" height="60px" />
+    </div>
+    <script src="~/Resources/Scripts/jquery.min.js"></script>
+    <script src="~/Resources/Scripts/Script.js"></script>
+</body>
+</html>

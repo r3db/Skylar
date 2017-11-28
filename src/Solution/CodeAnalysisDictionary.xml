@@ -1,0 +1,13 @@
+<Dictionary>
+  <Words>
+    <Recognized>
+      <Word>representer</Word>
+      <Word>ctor</Word>
+      <Word>Ctor</Word>
+      <Word>deserializer</Word>
+    </Recognized>
+    <DiscreteExceptions>
+      <Term>LessOr</Term>
+    </DiscreteExceptions>
+  </Words>
+</Dictionary>
